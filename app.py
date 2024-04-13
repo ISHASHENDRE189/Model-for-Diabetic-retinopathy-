@@ -1,6 +1,6 @@
 import torch
 import gradio as gr
-from src.model import DRModel
+from model import DRModel
 from torchvision import transforms as T
 
 CHECKPOINT_PATH = "artifacts/dr-model.ckpt"
